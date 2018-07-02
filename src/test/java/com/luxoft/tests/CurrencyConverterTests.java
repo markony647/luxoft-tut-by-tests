@@ -8,7 +8,6 @@ public class CurrencyConverterTests extends TestBase {
                               "Кредиты", "Вклады", "Облигации", "Карточки", "Платежи",
                               "Калькуляторы", "Ещё", "Новости"};
 
-
     @Test
     public void testCurrencyConverterWork() {
         app.financePage.visit();
